@@ -7,6 +7,19 @@
 }
 
 body {
-    font-family: Capriola, Open-Sans;
+    font-family: "Open Sans", "Sans-serif";
     font-weight:400;
+    color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: "Capriola", "Sans-serif";
+   color: #003259;
+}
+
+#logo {
+    float: left;
+    font-size: 200%;
 }
