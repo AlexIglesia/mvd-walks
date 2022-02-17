@@ -7,15 +7,15 @@
 }
 
 body {
-    font-family: "Open Sans", "Sans-serif";
-    font-weight:400;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 400;
     color: #3a3a3a;
 }
 
 /* headings and logo */
 
 h1, h2 {
-    font-family: "Capriola", "Sans-serif";
+    font-family: "Capriola", Sans-serif;
    color: #003259;
 }
 
@@ -29,7 +29,10 @@ h1, h2 {
 #menu {
     font-size: 110%;
     float: right;
-     
+}
+
+#menu, #logo {
+    line-height: 75px;
 }
 
 #menu li {
@@ -38,3 +41,16 @@ h1, h2 {
     list-style-type: none;
     margin-right: 30px;
     }
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover { 
+    border-bottom: 2px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 2px solid #3a3a3a;
+}
