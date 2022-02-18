@@ -153,4 +153,44 @@ code to make round corners: https://stackoverflow.com/questions/5738985/is-it-po
     overflow: hidden;
     margin-left: 150px;
     margin-top: 150px;
+
+    
+}
+
+/* table with days ,hour, language
+
+how to make round corners to table: https://stackoverflow.com/questions/4932181/rounded-table-corners-css-only/4932321
+
+*/
+
+
+table {
+    border-collapse:separate;
+    border:solid rgb(19, 211, 99) 1px;
+    border-radius:6px;
+    
+    position: fixed;
+    left: 75%;
+    bottom: 10%;
+    margin-right: 150px;
+
+    font-size: 110%;
+}
+
+
+tr, th, td {
+	text-align: left;
+}
+
+td, th {
+    border-left:solid rgb(19, 211, 99) 1px;
+    border-top:solid rgb(19, 211, 99) 1px;
+}
+
+th {
+    border-top: none;
+}
+
+td:first-child, th:first-child {
+     border-left: none;
 }
