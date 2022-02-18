@@ -128,9 +128,8 @@ h1, h2 {
 
 div img {
     max-width: 25%; 
-   /* float: right; */
-   /* padding: 20px; */
-    
+    padding: 20px; 
+    border-radius: 30px;
 }
  
 /* how to center images: https://stackoverflow.com/questions/48473177/centering-3-images-in-css */
