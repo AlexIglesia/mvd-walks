@@ -102,7 +102,7 @@ h1, h2 {
 
 
 .route-list {
-    margin-left: 300px;
+    margin-left: 150px;
    
 }
 
@@ -127,10 +127,9 @@ h1, h2 {
 
 
 div img {
-    max-width: 25%;
-    float: right;
-   /* column-count: 3;*/
-    padding: 20px; 
+    max-width: 25%; 
+   /* float: right; */
+   /* padding: 20px; */
     
 }
  
