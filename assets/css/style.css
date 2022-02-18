@@ -129,15 +129,18 @@ h1, h2 {
 div img {
     max-width: 25%;
     float: right;
-    column-count: 3;
-    padding: 10px;
+   /* column-count: 3;*/
+    padding: 20px; 
     
 }
+ 
+/* how to center images: https://stackoverflow.com/questions/48473177/centering-3-images-in-css */
 
 #photos {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
   
   
 }
+
