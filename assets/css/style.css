@@ -100,9 +100,22 @@ h1, h2 {
 
 /* route section */
 
-#route {
-    font-size: 120%;
-    padding-top: 40px;
-    margin-left: 300px;
 
+.route-list {
+    margin-left: 300px;
+}
+
+#route-list-title {
+    font-size: 110%;
+    line-height: 2.2em;
+    padding-top: 30px;
+
+}
+
+.route {
+    list-style-type:square;
+    color:#003259;
+    list-style-position: inside;
+    line-height: 2.5em;
+    
 }
