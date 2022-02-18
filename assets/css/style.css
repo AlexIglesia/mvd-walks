@@ -103,12 +103,14 @@ h1, h2 {
 
 .route-list {
     margin-left: 300px;
+   
 }
 
 #route-list-title {
     font-size: 110%;
     line-height: 2.2em;
     padding-top: 30px;
+    
 
 }
 
@@ -117,5 +119,25 @@ h1, h2 {
     color:#003259;
     list-style-position: inside;
     line-height: 2.5em;
+   
     
+}
+
+/* photos */
+
+
+div img {
+    max-width: 25%;
+    float: right;
+    column-count: 3;
+    padding: 10px;
+    
+}
+
+#photos {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
 }
