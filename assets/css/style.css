@@ -149,10 +149,11 @@ code to make round corners: https://stackoverflow.com/questions/5738985/is-it-po
 
 #map {
     border-radius: 10px;
-    width: 600px;
+    width:800px;
     overflow: hidden;
     margin-left: 150px;
     margin-top: 150px;
+    margin-right: 0;
 
     
 }
