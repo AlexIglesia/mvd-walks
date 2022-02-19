@@ -168,13 +168,15 @@ how to make round corners to table: https://stackoverflow.com/questions/4932181/
 }
 
 table {
+    width: 25%;
+    height: 300px;
     border-collapse:separate;
     border:solid rgb(19, 211, 99) 1px;
     border-radius:6px;
     
     position: absolute;
     top: 0px;
-    left: 60%;
+    left: 65%;
     
     margin-right: 150px;
 
@@ -184,7 +186,7 @@ table {
 
 
 tr, th, td {
-	text-align: left;
+	text-align: center;
     
 
 }
