@@ -163,23 +163,30 @@ how to make round corners to table: https://stackoverflow.com/questions/4932181/
 
 */
 
+#table-section {
+    position: relative;
+}
 
 table {
     border-collapse:separate;
     border:solid rgb(19, 211, 99) 1px;
     border-radius:6px;
     
-    position: fixed;
-    left: 75%;
-    bottom: 10%;
+    position: absolute;
+    top: 0px;
+    left: 60%;
+    
     margin-right: 150px;
 
     font-size: 110%;
+    
 }
 
 
 tr, th, td {
 	text-align: left;
+    
+
 }
 
 td, th {
@@ -189,6 +196,7 @@ td, th {
 
 th {
     border-top: none;
+    
 }
 
 td:first-child, th:first-child {
