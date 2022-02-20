@@ -227,3 +227,50 @@ footer {
     padding: 1%;
     color: white;
 }
+
+/* contact form */
+
+form{
+   
+    
+}
+
+#contact-form {
+    display: inline-block;
+    margin-left:auto;
+    margin-right: auto;
+    
+    
+    background-color:#45a049;
+    
+}
+ 
+form > legend {
+    text-align: left;
+}
+
+  
+  input[type=text], input[type=email], input[type=submit], textarea{
+    
+    border-radius: 5px;
+    width: 50%;
+  
+  }
+  
+  input[type=submit] {
+    width: 10em;
+    cursor: pointer;
+    padding: 10px;
+    
+  }
+
+  input[type=text], input[type=email], input[type=submit] {
+      height: 2em;
+  }
+
+
+ 
+  
+  
+
+

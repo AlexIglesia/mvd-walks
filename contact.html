@@ -22,7 +22,8 @@
                 <li>
                     <a href="index.html">Home</a>
                 </li>
-                <li>
+                <!-- how to link home section to another page : https://www.youtube.com/watch?v=fjrviv5pw5M&list=PLgxaTa2E9OKU3B7s3PJZTpDdOeR2pBit9&index=14-->
+                <li> 
                     <a href="index.html#route-section">Route</a>
                 </li>
                 <li>
@@ -33,21 +34,37 @@
     </header>
   
     <section>
-        <form>
-            <fieldset>
-                <legend>Have any questions?</legend>
-                <label for="fname">First Name:</label>
-                <input type="text" name="fname" id="fname">
-                <label for="lname">Last Name:</label>
-                <input type="text" name="lname" id="lname" >
-            </fieldset>
-            <fieldset>
-                <legend>Contact Information</legend>
-                <label for="email">Email Address:</label>
-                <input type="email" name="email" id="email">
-            </fieldset>
-            <input type="submit" value="Send Request">
-        </form>
+        <div id="contact-form">
+            <form action="https://formdump.codeinstitute.net/" method="post" id="contact-form">
+                <form action="" method="post">
+                <fieldset>
+                    <legend>Have any questions?</legend> <br>
+                    <div class="content-lab">
+                        <label for="fname"> Name:</label> 
+                    </div> 
+                    <div class="content-imp">
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="content-lab>
+                        <label for="email">Email Address:</label>
+                    </div>
+                    <div class="content-imp">
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="content-lab">
+                        <label for="feedback">Meassage:</label>
+                    </div>
+                    <br>
+                    <div class="content-imp">
+                    <textarea id="feedback" cols="50" rows="10" name="feedback" placeholder="Your Meassage"></textarea>
+                    </div><br>
+                    <div class="content-imp">
+                    <input type="submit" value="Send Request">
+                    </div>
+                
+                </fieldset>
+            </form>
+        </div>
     </section>
     
     <footer>
