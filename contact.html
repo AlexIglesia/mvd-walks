@@ -33,38 +33,19 @@
         </nav>
     </header>
   
-    <section>
-        <div id="contact-form">
-            <form action="https://formdump.codeinstitute.net/" method="post" id="contact-form">
-                <form action="" method="post">
-                <fieldset>
-                    <legend>Have any questions?</legend> <br>
-                    <div class="content-lab">
-                        <label for="fname"> Name:</label> 
-                    </div> 
-                    <div class="content-imp">
-                        <input type="text" name="name" id="name">
-                    </div>
-                    <div class="content-lab>
-                        <label for="email">Email Address:</label>
-                    </div>
-                    <div class="content-imp">
-                        <input type="email" name="email" id="email">
-                    </div>
-                    <div class="content-lab">
-                        <label for="feedback">Meassage:</label>
-                    </div>
-                    <br>
-                    <div class="content-imp">
-                    <textarea id="feedback" cols="50" rows="10" name="feedback" placeholder="Your Meassage"></textarea>
-                    </div><br>
-                    <div class="content-imp">
-                    <input type="submit" value="Send Request">
-                    </div>
-                
-                </fieldset>
-            </form>
-        </div>
+    <section class="form-section">
+        
+            <form action="thank-you.html" method="get" class="contact-form">
+                <h2>Have any questions?</h2> <br>
+                <label for="fname"> Name:</label> 
+                <input type="text" name="name" id="name" class="text-input" required>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" class="text-input" required>                   
+                <label for="feedback">Meassage:</label>  
+                <textarea id="feedback" cols="50" rows="10" name="feedback" placeholder="Your Message" class="textarea-form" required></textarea>
+                <input type="submit" value="Send" class="send-message">
+                    
+    
     </section>
     
     <footer>
