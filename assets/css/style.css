@@ -6,6 +6,9 @@
     border: none;
    
 }
+html {
+    font-size: 1em;
+}
 
 body {
     font-family: "Open Sans", Sans-serif;
@@ -24,6 +27,9 @@ flex: 1;
 
 
 /* headings and logo */
+h1{
+    font-size: 2rem;
+}
 
 h1, h2 {
     font-family: "Capriola", Sans-serif;
@@ -39,7 +45,7 @@ h1, h2 {
 /* navigation links */
 
 #menu {
-    font-size: 110%;
+    font-size: 1.1rem;
     float: right;
 }
 
@@ -112,27 +118,42 @@ h1, h2 {
 /* route section */
 
 
-.route-list {
-    margin-left: 150px;
-   
-}
+
 
 #route-list-title {
-    font-size: 110%;
+    font-size: 1.5rem;
     line-height: 2.2em;
     padding-top: 30px;
+    text-align: center;
     
 
 }
 
 .route {
-    list-style-type:square;
+    list-style-type:disc;
+    list-style-position: outside;
     color:#003259;
-    list-style-position: inside;
-    line-height: 2.5em;
-   
+    text-align: center;
+    line-height: 2.5em; 
     
+    
+
+     
 }
+
+ .route li {
+    background: #6fabce;
+    width: 35%;
+    border-radius: 1rem;
+    margin: 0 auto;
+    padding: 5px;  
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+
+}
+
+
 
 /* photos */
 
@@ -164,7 +185,7 @@ code to make round corners: https://stackoverflow.com/questions/5738985/is-it-po
     overflow: hidden;
     margin-left: 150px;
     margin-top: 150px;
-    margin-right: 0;
+    margin: 0 auto;
     
       
 }
@@ -179,26 +200,30 @@ how to make round corners to table: https://stackoverflow.com/questions/4932181/
 */
 
 #table-section {
-    position: relative;
+    
+    height: 400px;
+
+}
+
+#table-section > table{
+
+   margin: 0 auto;
+   margin-top: 10px;
 }
 
 table {
     width: 25%;
-    height: 300px;
-    border-collapse:separate;
+    
+    border-collapse:separate; 
     border:solid rgb(19, 211, 99) 1px;
     border-radius:6px;
-    
-    position: absolute;
-    top: 0px;
-    left: 65%;
-    
-    margin-right: 150px;
+      
+   
     margin-bottom: 5px;
-
     font-size: 110%;
     
 }
+
 
 
 tr, th, td {
@@ -309,8 +334,27 @@ footer {
     color: #f16c6b;
 }
 
-/* content body */
+ 
+/*  media queries  */
 
-.content {
-    flex: 1;
+@media screen and (max-width: 1550px){
+
+    .route {
+        width: 50%;
+       
+     margin: auto;
+    }
+
+    #route-list-title{
+        width: 50%;
+        margin: auto;
+    }
+
+  
+
+   
 }
+
+
+
+
