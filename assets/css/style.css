@@ -12,11 +12,16 @@ body {
     font-weight: 400;
     color: #3a3a3a;
    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+main {
+flex: 1;
 }
 
-main {
-    flex:1;
-}
 
 /* headings and logo */
 
@@ -160,10 +165,13 @@ code to make round corners: https://stackoverflow.com/questions/5738985/is-it-po
     margin-left: 150px;
     margin-top: 150px;
     margin-right: 0;
-
     
+      
 }
 
+iframe {
+    margin-bottom: 5px;
+}
 /* table with days ,hour, language
 
 how to make round corners to table: https://stackoverflow.com/questions/4932181/rounded-table-corners-css-only/4932321
@@ -186,6 +194,7 @@ table {
     left: 65%;
     
     margin-right: 150px;
+    margin-bottom: 5px;
 
     font-size: 110%;
     
@@ -217,9 +226,8 @@ td:first-child, th:first-child {
 footer {
     height: 150px;
     background-color: #003259;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
+   
+    
 }
 
 .social-networks {
@@ -245,10 +253,11 @@ footer {
     max-width: 400px;
     padding: 30px;
     position: relative;
-    top: 200px;
+    top: 100px;
     color: pink;
     background-color: #003259;
     border-radius: 20px;
+    margin-bottom: 5px;
    
 }
 
@@ -300,3 +309,8 @@ footer {
     color: #f16c6b;
 }
 
+/* content body */
+
+.content {
+    flex: 1;
+}
