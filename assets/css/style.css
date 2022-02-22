@@ -202,14 +202,9 @@ how to make round corners to table: https://stackoverflow.com/questions/4932181/
 #table-section {
     
     height: 400px;
-
+    margin-top: 50px;
 }
 
-#table-section > table{
-
-   margin: 0 auto;
-   margin-top: 10px;
-}
 
 table {
     width: 25%;
@@ -221,7 +216,8 @@ table {
    
     margin-bottom: 5px;
     font-size: 110%;
-    
+  
+    margin: 0 auto;
 }
 
 
@@ -274,7 +270,7 @@ footer {
 
 
 .contact-form {
-    margin: auto;
+    margin: 0 auto;
     max-width: 400px;
     padding: 30px;
     position: relative;
@@ -337,24 +333,26 @@ footer {
  
 /*  media queries  */
 
+/*
+
 @media screen and (max-width: 1550px){
 
     .route {
         width: 50%;
        
-     margin: auto;
+     margin: 0 auto;
     }
 
     #route-list-title{
         width: 50%;
-        margin: auto;
+        margin: 0 auto;
     }
 
   
 
    
 }
-
+*/
 
 
 
