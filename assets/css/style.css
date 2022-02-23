@@ -190,18 +190,18 @@ code to make round corners: https://stackoverflow.com/questions/5738985/is-it-po
 */
 
 #map {
-    border-radius: 10px;
-    width:800px;
-    overflow: hidden;
-    margin-left: 150px;
-    margin-top: 150px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     
-      
+    
+  
 }
 
 iframe {
-    margin-bottom: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 /* table with days ,hour, language
 
@@ -373,6 +373,10 @@ footer {
        flex-direction:column;
 
     }
+
+
+   
+
 
 }
 
