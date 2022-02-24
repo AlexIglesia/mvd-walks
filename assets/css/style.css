@@ -76,11 +76,11 @@ h1, h2 {
 }
 
 #menu a:hover { 
-    border-bottom: 2px solid #3a3a3a;
+    border-bottom: 4px solid #9dff00;
 }
 
 .active {
-    border-bottom: 2px solid #3a3a3a;
+    border-bottom: 4px solid #9dff00;
 }
 
 /* palacio salvo image */
@@ -420,11 +420,11 @@ font-size: 3rem;
         margin: 0 auto;
     }
 
-    */
+    
    
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
 
     div img {
         min-width: 85%;
@@ -436,10 +436,68 @@ font-size: 3rem;
 
     }
 
+}
+*/
 
-   
+/* grid */
+
+.container {
+    display: grid;
+    height:100vh;
+    grid-template-columns: (1fr 1fr 1fr 1fr 1fr);
+    grid-template-rows: 0.2fr 2fr 1.5fr 1.5f 1.5f 1.5f;
+    grid-template-areas: "header header header header header"
+                        "palacio-outer palacio-outer palacio-outer palacio-outer palacio-outer"
+                        "route-section"
+                        "map map map"
+                        "table"
+                        "footer footer footer footer footer";
+    grid-gap: 0.2rem;
 
 
 }
+header {
+    background: pink;
+    grid-area: header;
+}
 
+#menu {
+    background: olive;
+    grid-area: menu;
+}
 
+#route-section {
+    background: orange;
+    grid-area: route-section;
+    
+}
+
+.route-list {
+    background: #6fabce;
+}
+
+#photos {
+    background: #9dff00;
+}
+
+#map{
+    background: yellow;
+    grid-area: map;
+}
+
+table {
+    background: red;
+    grid-area: table;
+
+}
+
+footer {
+    grid-area: footer;
+}
+
+@media screen and (max-width: 550px){
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows:  ;
+    }
+}
