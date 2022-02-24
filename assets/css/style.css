@@ -239,9 +239,9 @@ table {
     width: 25%;
     
     border-collapse:separate; 
-    border:solid #6fabce 2px;
+    border:solid white 2px;
     border-radius:6px;
-    color: #28637e;
+    color: #3a3a3a;
     
       
    
@@ -264,8 +264,8 @@ tr, th, td {
 }
 
 td, th {
-    border-left:solid #6fabce 2px;
-    border-top:solid #6fabce 2px;
+    border-left:solid white 2px;
+    border-top:solid white 2px;
 }
 
 th {
@@ -303,6 +303,13 @@ footer {
 
 /* contact form */
 
+.form-section {
+    background-color: #ebdcca;
+    height: 800px;
+    position: relative;
+    top: 75px;
+}
+
 
 .contact-form {
     margin: 0 auto;
@@ -310,8 +317,9 @@ footer {
     padding: 30px;
     position: relative;
     top: 100px;
-    color: pink;
-    background-color: #28637e;
+    color: #3a3a3a;
+  /*  background-color: #28637e; */
+    background-image: linear-gradient(to right top, #ebdcca, #eee2d4, #f0e8dd, #f3eee7, #f6f4f1);
     border-radius: 20px;
     margin-bottom: 5px;
    
@@ -319,7 +327,7 @@ footer {
 
 .contact-form > h2 {
     
-    color: #e7d4d4; 
+    color: #3a3a3a; 
 }
 
 .text-input {
@@ -332,7 +340,7 @@ footer {
 }
 
 .text-input:hover {
-    border-color: rgb(233, 186, 115);
+    border-color: #3a3a3a;
     
 }
 
@@ -345,7 +353,7 @@ footer {
 
 .textarea-form:hover{
     
-    border-color:white;
+    border-color:#3a3a3a;
   }
 
 
@@ -355,14 +363,14 @@ footer {
     padding:15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color:  #6fabce;
-    color: #fafafa;
+    background-color: white;
+    color: #3a3a3a;
     display: block;
 }
 
 .send-message:hover {
-    background-color: #28637e;
-    color: #f16c6b;
+    background-color: #3a3a3a;
+    color: white;
 }
 
  
