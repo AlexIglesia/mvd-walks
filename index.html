@@ -11,15 +11,15 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>mvd walks</title>
 </head>
-<div class="container">
+
 <body>
-    <main>
+    <main class="container"></main>
         <header>
             <a href="index.html" class="grid-item-1">
-                <h1 id="logo">mvd walks</h1>
+                <h1 id="logo"> mvd walks</h1>
             </a>
-            <nav class="grid-item-2">
-                <ul id="menu">
+            <nav>
+                <ul id="menu" class="grid-item-2">
                     <li>
                         <a href="index.html" class="active">Home</a>
                     </li>
@@ -32,7 +32,8 @@
                 </ul>
             </nav>
         </header>
-        <section id="palacio-outer">
+        
+        <section id="palacio-outer" class="grid-item-11">
         <!--  <div id="palacio-salvo"> -->
                 
                     <div id="cover-text" class="grid-item-3"> 
@@ -40,18 +41,16 @@
                     <h2>Join Patricio to wander around the beautiful
                     Uruguayan capital, <span>Montevideo. </span> </h2>
                     </div>
-                
-        <!--   </div> -->
         </section>
         
         <section id="route-section">
         
             <div class="route-list">
                 
-                <div id="route-list-title" class="grid-item-4">
+                <div id="route-list-title">
                     <h2>Route</h2>
                 </div>
-                <ul class="route">
+                <ul class="route" class="grid-item-4">
                     <li>
                         Artigas Monument 
                     </li>
@@ -72,7 +71,7 @@
                     </li>
                 </ul>
             </div>
-            <div id="photos">
+            <div class="photos">
                 <img src="assets/images/musician.jpg" alt="musician playing accordion" class="grid-item-5">
                 <img src="assets/images/buildings.jpg" alt="Buildings in Montevideo, city center" class="grid-item-6">
                 <img src="assets/images/signs.jpg" alt="Old shop signs" class="grid-item-7">
@@ -83,13 +82,13 @@
 
         
         <section>
-            <div id="map" class="grid-item-8">
-            <iframe src="https://www.google.com/maps/d/embed?mid=1ip9ATrgL_Tpy5zcYJUzTaIe30HnIY1aJ&ehbc=2E312F" title=" The google maps with location to meet and activities" width="800px" height="480"></iframe>
+            <div id="map">
+            <iframe class="grid-item-8" src="https://www.google.com/maps/d/embed?mid=1ip9ATrgL_Tpy5zcYJUzTaIe30HnIY1aJ&ehbc=2E312F" title=" The google maps with location to meet and activities" width="800px" height="480"></iframe>
             </div>
         </section>
-        <section id="table-section" class="grid-item-9" >
-            <div>
-            <table class="table">
+        
+        <section id="table-section">
+           <table class="table" class="grid-item-9">
                 <tr>
                     <th>
                         Days
@@ -135,11 +134,11 @@
                     </td>
                 </tr>
             </table>
-        </div>
-        </section>
-    </main>
-    <footer>
-        <ul class="social-networks" class="grid-item-10">
+       </section>
+   
+
+    <footer class="grid-item-10">
+        <ul class="social-networks" >
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
                  aria-label="visit our facebook page (open in a new tab)"><i class="fab fa-facebook"></i></a>
@@ -156,9 +155,9 @@
         </ul> 
 
     </footer>
-</div>
-    
+    </main>
+</body> 
     <script src="https://kit.fontawesome.com/f054121e0b.js" crossorigin="anonymous"></script>
-</body>
+
 
 </html>
