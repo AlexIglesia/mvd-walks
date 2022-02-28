@@ -222,6 +222,24 @@ span {
 code to make round corners: https://stackoverflow.com/questions/5738985/is-it-possible-to-have-css-rounded-corners-on-an-iframe 
 
 */
+#iframe-section{
+    position:relative;
+    bottom: 10rem;
+}
+
+
+#iframe-section h2, h3{
+    font-size: 3rem;
+   text-align: center;
+   margin-bottom: 4rem;
+   font-weight: 200;
+    
+}
+#iframe-section h2{
+    font-size: 4rem;
+    font-family: Montserrat;
+   
+}
 
 #map {
     display: flex;
@@ -233,7 +251,8 @@ code to make round corners: https://stackoverflow.com/questions/5738985/is-it-po
 }
 
 iframe {
-    margin: 20rem 1rem; 
+    margin: 1rem; 
+    margin-bottom: 10rem;
     border-radius: 10px;
     overflow: hidden;
     width: 100%;
