@@ -226,7 +226,7 @@ code to make round corners: https://stackoverflow.com/questions/5738985/is-it-po
 }
 
 iframe {
-    margin: 1rem; 
+    margin: 20rem 1rem; 
     border-radius: 10px;
     overflow: hidden;
     width: 100%;
@@ -242,7 +242,7 @@ how to make round corners to table: https://stackoverflow.com/questions/4932181/
     
   /*  height: 400px; 
     margin-top: 3em; */
-
+    margin-bottom: 20rem;
     background-color: #ffffff;
    
 }
@@ -455,12 +455,12 @@ font-size: 3rem;
 
 
 /* grid */
-/*
+
 .container {
     display: grid;
     
     grid-template-columns: 1fr 1fr 1fr;
-    
+    /*
     gap: 2.5rem;
     
     
