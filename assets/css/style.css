@@ -220,10 +220,52 @@ color: white;
     margin-right: 9rem;
 }
 
+
+
+
+ /* table */
+table {
+    width: 60rem;
+    height: 30rem;
+    border-collapse:separate;
+    border:solid rgb(238,164,127) 2px;
+    border-radius:6px;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    margin-top: 6.5rem;
+}
+    
+    tr, th, td {
+    text-align: center;
+    padding: 1rem;
+}
+    
+    td, th {
+    border-left:solid rgb(238,164,127) 2px;
+    border-top:solid rgb(238,164,127) 2px;
+}
+    
+    th {
+    border-top: none;
+}
+    
+    td:first-child, th:first-child {
+    
+    border-left: none;
+    
+}
+
+
+
+
 /* iframe */
 
 /* code to make round corners: https://stackoverflow.com/questions/5738985/is-it-possible-to-have-css-rounded-corners-on-an-iframe */
 
+iframe {
+    border-radius: 10px;
+    overflow: hidden;
+}
 
 
 
@@ -241,8 +283,8 @@ color: white;
      "content4 content5 content5"
      "content6 content6 content7"
      "content8 content8 content8"
-     "content9 content9 content9"
      "content10 content11 content11"
+     "content9 content9 content9"
      "footer footer footer";
      grid-gap: 0.5rem;
      font-family: "Montserrat", sans-serif;
@@ -325,20 +367,20 @@ main {
     padding-top: var(--main-padding);
 }
 #content10 {
-    background: rgb(226, 17, 216);
+    background: rgb(238, 208, 193);
     grid-area: content10;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
 }
 #content11 {
-    background: rgb(130, 99, 170);
+    background: rgb(238, 208, 193);
     grid-area: content11;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
 }
 
 footer {
-    background: rgb(92, 22, 184);
+    background: rgb(238, 208, 193);
     grid-area: footer;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
