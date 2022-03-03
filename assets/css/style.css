@@ -267,6 +267,25 @@ iframe {
     overflow: hidden;
 }
 
+/* footer */
+
+
+
+.social-networks i {
+    
+    font-size: 4rem;
+    margin: 2rem;
+    color: white;
+    
+}
+
+
+ 
+footer a:hover {
+    border-bottom: none;
+}
+
+
 
 
 
@@ -367,7 +386,7 @@ main {
     padding-top: var(--main-padding);
 }
 #content10 {
-    background: rgb(238, 208, 193);
+    background:  rgba(228, 95, 19, 0.644);
     grid-area: content10;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
@@ -380,7 +399,7 @@ main {
 }
 
 footer {
-    background: rgb(238, 208, 193);
+    background-image: linear-gradient(to top, #eea47f, #efaf8f, #efba9f, #efc5b0, #eed0c1);
     grid-area: footer;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
@@ -399,9 +418,9 @@ footer {
         "content4 content5 content5"
         "content6 content6 content7"
         "content8 content8 content8"
-        "content9 content9 content9"
         "content10 content10 content10"
         "content11 content11 content11"
+        "content9 content9 content9"
         "footer footer footer"; 
     }
 
@@ -418,6 +437,4 @@ footer {
     }
 
 
-
-
-    }
+ }
