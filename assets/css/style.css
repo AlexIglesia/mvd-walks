@@ -9,34 +9,82 @@
 
 html {
     font-size: 62.5%;
+    color: rgb(29, 92, 151);
     }
 
-    header h1 {
-        font-family: "Capriola", serif;
-        font-size: 3rem;
-        color: rgb(65,105,225);
-        float: left;
-        margin-left: 2rem;   
-    }
+
+/* navtab */
+
+header h1 {
+    font-family: "Capriola", serif;
+    font-size: 3.5rem;
+    color: rgb(29, 92, 151);
+    float: left;
+    margin-left: 2rem;   
+}
     
-    ul{
-        font-size: 1.6rem;
-        float: right;
-        line-height: 6rem;
-    }
+ul {
+    font-size: 1.6rem;
+    float: right;
+    line-height: 8rem;
+}
     
-    ul li {
-        float: left;
-        list-style-type: none;
-        margin-right: 2rem;
+ul li {
+    float: left;
+    list-style-type: none;
+    margin-right: 2rem;
   
-    }
+}
 
-    li a{
-        color: rgb(65,105,225); 
-        text-decoration: none;
-    }
+li a {
+    color: rgb(29, 92, 151); 
+    text-decoration: none;
+}
         
+a:hover {
+    border-bottom: 4px solid rgb(238,164,127);
+}
+
+.active {
+    border-bottom: 4px solid rgb(238,164,127);
+}
+
+
+/* main */
+
+.palacio {
+    background: url(../images/palacio-salvo-texture.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.cover-text {
+    height: 30rem;
+    width: 40rem;
+    background-color: rgba(228, 95, 19, 0.644);
+    border-radius: 3rem;
+    margin: 0 auto;
+    margin-top: 10rem;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.cover-text h1 {
+    font-family: "Capriola", serif;
+    font-size: 5rem; 
+    color: white;  
+}
+    
+.cover-text h2 {
+    font-family: "Capriola", serif;
+    color: white;
+    font-size: 2.2rem;
+}
+
+span {
+    font-style: italic;
+    color: rgb(238,164,127);
+    background-color: white;
+   }
 
 
 
@@ -68,7 +116,7 @@ html {
 
 
 nav {
-    background: rgb(211, 226, 211);
+    background: rgb(238, 208, 193);
     grid-area: nav;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
@@ -179,4 +227,20 @@ footer {
         "content11 content11 content11"
         "footer footer footer"; 
     }
-}
+
+    .cover-text {
+        height: 25rem;
+        width: 30rem;
+    }
+
+    .cover-text h1 {
+        font-size: 4rem;
+    }
+    .cover-text h2 {
+        font-size: 1.8rem;
+    }
+
+
+
+
+    }
