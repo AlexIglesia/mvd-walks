@@ -7,11 +7,50 @@
     --main-padding:5px;
 }
 
+html {
+    font-size: 62.5%;
+    }
+
+    header h1 {
+        font-family: "Capriola", serif;
+        font-size: 3rem;
+        color: rgb(65,105,225);
+        float: left;
+        margin-left: 2rem;   
+    }
+    
+    ul{
+        font-size: 1.6rem;
+        float: right;
+        line-height: 6rem;
+    }
+    
+    ul li {
+        float: left;
+        list-style-type: none;
+        margin-right: 2rem;
+  
+    }
+
+    li a{
+        color: rgb(65,105,225); 
+        text-decoration: none;
+    }
+        
+
+
+
+
+
+
+
+
+ /* grids */
 .container{
     display:grid;
     height: 400vh;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 2.5fr 1.5fr 1.5fr 1.5fr 1.2fr 1.5fr 1.5fr 0.8fr;
+    grid-template-rows: 0.2fr 2.5fr 1.5fr 1.5fr 1.5fr 1.2fr 1.5fr 1.5fr 0.4fr;
     grid-template-areas:
      "nav nav nav"
      "main main main"
@@ -22,17 +61,19 @@
      "content9 content9 content9"
      "content10 content11 content11"
      "footer footer footer";
-
-     grid-gap: .2rem;
+     grid-gap: 0.4rem;
+     font-family: "Montserrat", sans-serif;
+     
 }
 
 
 nav {
-    background: green;
+    background: rgb(211, 226, 211);
     grid-area: nav;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
 }
+
 
 main {
     background: greenyellow;
