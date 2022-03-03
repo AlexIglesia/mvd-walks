@@ -86,7 +86,7 @@ span {
     background-color: white;
 }
 
-/* activities list */
+/* activities list content 2*/
 
 /* how to style numbers in order list https://css-tricks.com/css-counters-custom-list-number-styling/ */
 
@@ -124,16 +124,15 @@ ol li::before {
     
  /* images content1  */
 
- #content1{
+ #content1, #content3, #content4, #content5, #content6, #content7{
     position: relative;
 }
 
-#content1 img{
-    width: 100%;
-    height: 100%;
+#content1 >img {
+    width: 100%
 }
 
-#content1 h2 {
+#content1 h2{
  position: absolute;
  bottom: 2rem;
  left: 2rem;
@@ -141,6 +140,72 @@ ol li::before {
  color: white;
 }
 
+/* images content3  */
+#content3>img {
+    width: 100%;
+}
+
+#content3 h2 {
+position: absolute;
+bottom: 2rem;
+left: 2rem;
+font-size: 2rem;
+color: white;
+}
+  
+
+
+/* images content4  */
+#content4 > img {
+    width: 100%;
+}
+
+#content4 h2 {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    font-size: 2rem;
+    color: white;
+    }
+      
+/* images content5  */
+#content5 > img {
+    width: 100%;
+}
+
+#content5 h2 {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    font-size: 2rem;
+    color: white;
+    }
+      
+/* images content6  */
+#content6 > img {
+    width: 100%;
+}
+
+#content6 h2 {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    font-size: 2rem;
+    color: white;
+    }
+      
+/* images content7 */
+#content7> img {
+    width: 100%;
+}
+#content7 h2 {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    font-size: 2rem;
+    color: white;
+    }
+      
 
 
 
