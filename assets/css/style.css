@@ -237,7 +237,33 @@ color: white;
     margin-right: 9rem;
 }
 
+/* content10 */
+
+ #content10 h3{
+    
+    font-size: 2.5rem;
+    text-align:center;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    margin-bottom: 3rem;
+    line-height: 3rem;   
+ }
+ 
+ 
+     
+
+
  /* table */
+
+ #content11 h2 {
+     font-size: 4rem;
+     color: white;
+     text-align: center;
+     padding-top: 4rem;
+     text-decoration: underline wavy rgb(238,164,127);
+     text-underline-offset: 1rem;
+ }
+
 table {
     width: 60rem;
     height: 30rem;
@@ -307,7 +333,7 @@ footer a:hover {
     display:grid;
     height: 400vh;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 2.5fr 1.5fr 1.5fr 1.5fr 1.2fr 1.5fr 1.5fr 0.4fr;
+    grid-template-rows: 0.2fr 2.5fr 1.5fr 1.5fr 1.5fr 0.8fr 1.5fr 1.5fr 0.4fr;
     grid-template-areas:
      "nav nav nav"
      "main main main"
