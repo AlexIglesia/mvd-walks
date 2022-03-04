@@ -314,7 +314,7 @@ iframe {
     
     font-size: 4rem;
     margin: 2rem;
-    color: white;
+    color: rgb(29, 92, 151);
 }
 
 footer a:hover {
@@ -383,6 +383,7 @@ form{
 .contact-guide{
     padding: 5rem;
     font-size: 1.8rem;
+    float: left;
 
 }
 
@@ -479,7 +480,7 @@ main {
 }
 
 #content8 {
-    background: rgb(238, 208, 193);
+    background: rgb(248, 242, 242);
     grid-area: content8;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
@@ -505,7 +506,7 @@ main {
 }
 
 footer {
-    background-image: linear-gradient(to top, #eea47f, #efaf8f, #efba9f, #efc5b0, #eed0c1);
+    background: rgb(248, 242, 242);
     grid-area: footer;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
@@ -519,7 +520,7 @@ footer {
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
      "nav nav nav"
-     "content12 content12 content13"
+     "content13 content12 content12"
      "footer footer footer";
      grid-gap: 0.5rem;
      font-family: "Montserrat", sans-serif;
@@ -574,4 +575,39 @@ footer {
     }
 
 
- }
+    .container-contact{
+        display:grid;
+        grid-template-columns: minmax(100px,200px) 1fr;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas:
+         "nav nav nav"
+         "content13 content12 content12"
+         "footer footer footer";
+         grid-gap: 0.5rem;
+         font-family: "Montserrat", sans-serif;
+         
+    }
+   
+    form{
+        font-size: 1.6rem;
+        max-width: 75%;
+     }
+    
+
+    .contact-guide{
+    padding: 3rem;
+    font-size: 1.3rem;
+    padding: 2rem;
+    }
+ 
+
+    table{
+        width: 50%;
+        margin-bottom: 3rem;
+    }
+
+    #content11 h2 {
+        font-size: 3.5rem;
+        padding-top: 2rem;
+    }
+}
