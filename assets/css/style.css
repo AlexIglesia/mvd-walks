@@ -88,11 +88,13 @@ span {
 /* activities list content 2*/
 
 /* how to style numbers in order list https://css-tricks.com/css-counters-custom-list-number-styling/ */
-
+/* how to make text underline offset: https://developer.mozilla.org/en-US/docs/Web/CSS/text-underline-offset */
 #content2 h2 {
     font-size: 5rem;
     padding-top: 2rem;
     text-align: center;
+    text-decoration: underline wavy rgb(238,164,127);
+    text-underline-offset: 1rem;
 }
 
 ol{
@@ -220,6 +222,7 @@ color: white;
     color: white;
     }
       
+
 /*  text - content8 */
 
 #content8 h2, h3 {
@@ -233,9 +236,6 @@ color: white;
     text-align: right;
     margin-right: 9rem;
 }
-
-
-
 
  /* table */
 table {
@@ -282,23 +282,22 @@ iframe {
 }
 
 /* footer */
-
-
+/* how to center footer, etc: instagram ( baby_wolf_codes ) */
 
 .social-networks i {
     
     font-size: 4rem;
     margin: 2rem;
     color: white;
-    
 }
 
-
- 
 footer a:hover {
     border-bottom: none;
 }
-
+ footer {
+     display: grid;
+     place-items: center;
+ }
 
 
 
