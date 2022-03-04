@@ -12,48 +12,47 @@
     <title>mvd walks</title>
 </head>
 
-<body>
-   <main>
+<div class="container-contact">
+    <nav>
         <header>
             <a href="index.html">
                 <h1 id="logo">mvd walks</h1>
             </a>
-            <nav>
-                <ul id="menu">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <!-- how to link home section to another page : https://www.youtube.com/watch?v=fjrviv5pw5M&list=PLgxaTa2E9OKU3B7s3PJZTpDdOeR2pBit9&index=14-->
-                    <li> 
-                        <a href="index.html#route-section">Route</a>
-                    </li>
-                    <li>
-                        <a href="contact.html" class="active">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                 <!-- how to link home section to another page : https://www.youtube.com/watch?v=fjrviv5pw5M&list=PLgxaTa2E9OKU3B7s3PJZTpDdOeR2pBit9&index=14-->
+                <li> 
+                    <a href="index.html#content2">Activities</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="active">Contact</a>
+                 </li>
+            </ul>
         </header>
+    </nav>
+    <div id="content12">
+        <form action="thank-you.html" method="get">
+            <h2>Have any questions?</h2> <br>
+            <label for="fname"> Name:</label> 
+            <input type="text" name="name" id="name" class="text-input" placeholder="Your Name" required>
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email" class="text-input" placeholder="your Email" required>                   
+            <label for="feedback">Meassage:</label>  
+            <textarea id="feedback" cols="50" rows="10" name="feedback" placeholder="Your Message" class="textarea-form" required></textarea>
+            <input type="submit" value="Send" class="send-message">
+        </form>
+    </div>
+    <div id="content13"> 
+        <ul class="contact-guide">
+            <li>Contact: <i class="far fa-smile-beam"></i></li><br>
+            <li>Guide: Patricio </li><br>
+            <li>Email: info@mtdwalks.com </li><br>
+            <li>Call us: +353 44 555 678 </li>
+        </ul>
+    </div>
     
-        <section class="form-section">
-            
-                <form action="thank-you.html" method="get" class="contact-form">
-                    <h2>Have any questions?</h2> <br>
-                    <label for="fname"> Name:</label> 
-                    <input type="text" name="name" id="name" class="text-input" required>
-                    <label for="email">Email Address:</label>
-                    <input type="email" name="email" id="email" class="text-input" required>                   
-                    <label for="feedback">Meassage:</label>  
-                    <textarea id="feedback" cols="50" rows="10" name="feedback" placeholder="Your Message" class="textarea-form" required></textarea>
-                    <input type="submit" value="Send" class="send-message">
-
-                </form>
-                    <div class="contact-info">
-                        <h2>Contact: <i class="far fa-smile-beam"></i></h2>
-                        <h3>Guide: Patricio</h3>
-                        <h3>Email: info@mtdwalks.com </h3>
-                        <h3>Call us: +353 44 555 678 </h3>
-                    </div>
-        </section>
         
     <footer>
         <ul class="social-networks">
@@ -73,7 +72,7 @@
         </ul> 
 
     </footer>
-</main>
-</body> 
+</div> 
+
     <script src="https://kit.fontawesome.com/f054121e0b.js" crossorigin="anonymous"></script>
 </html>
