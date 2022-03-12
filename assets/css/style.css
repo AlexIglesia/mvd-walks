@@ -237,6 +237,7 @@ border-left: none;
 /* iframe */
 /* code to make round corners: https://stackoverflow.com/questions/5738985/is-it-possible-to-have-css-rounded-corners-on-an-iframe */
 iframe {
+width:100%;
 border-radius: 10px;
 overflow: hidden;
 height: 50rem;
@@ -591,7 +592,7 @@ font-size: 1.5rem;
 height: 17rem;
 width: 17rem;
 margin-bottom: 2rem;
-margin-top: 4rem;
+margin-top: 2rem;
 }
 .cover-text> h1 {
 font-size: 2.5rem;

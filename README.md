@@ -1,108 +1,112 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Mvd Walks
+The website is created mainly for tourists but also for any person interested in participating in a free walking tour in the city of Montevideo, Uruguay.
 
-Welcome AlexIglesia,
+Mvd Walks offers basic information related to the main locations to visit, meeting times and details to contact with the tour guide.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Navigation
 
-## Gitpod Reminders
+- Featured at the top of the page, the navigation shows the touristic organization name: "mvd walks" that links to the top of the page.
+- The other navigation links are to the right: Home, Activities and Contact. The first two link to each section of the page. Contact links to another page.
+- The navigation clearly tells the user the name of the touristic company ans makes the different sections of information easy to find. 
+- The color selection is beige for background. Blue is commonly asocaited as one of the colors that symbolise Uruguay, so it is implemented for text to create a contrast. Coral is used in details as a accent color. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+** image here**
+## Home 
 
-`python3 -m http.server`
+- The home page shows a brief introduction of the type of company promoted and where is it established. The font color is white and an orange background is behaind to let text be more readable.
 
-A blue button should appear to click: _Make Public_,
+- Also there is a background image of one of the main locations visited on the tour.  The background has a grain texture implemented with photoshop that adds value.
 
-Another blue button should appear to click: _Open Browser_.
+- This section provides the user with clear information about what the site is and for who it is for.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+## Activities
 
-Another blue button should appear to click: _Open Browser_.
+- This section gives an ordered list of activities.
+- The images have a number in the left corner that correspond to each activity.
+- The images are displayed in a payfull manner to attract users attention.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Introduction to the organization, Inspirational quote and Timetable
+This three topics are divided in three sub sections.
+- The first section has one quote to attact user attention. This quote suggest the tour's quality and points to the fact of being a free activity.
 
-To log into the Heroku toolbelt CLI:
+- The second sub-section is a text explaining the type of organization and enashize in being a free activity and gives confidence to users expressing since when the organization in running.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- The last sub-section shows the user the important information about what they offer and has a table with the company meeting times and language spoken.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Location 
 
-------
+- The google map shows the activities and meeting point.
 
-## Release History
+## Footer
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- The footer has three icons that link to the main social media to find more information about the tour.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Contact 
+- This page has contact detais of the guide and a contact form in case users need more information.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- The form does not collect data, it provides a thank you message as feedback to simulate a real form. The method is not “post” for this reason.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Bugs
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- When I deployed my project to GitHub Pages and used the "Am I responsive?" website I discoverd the "cover-text" orange box in the home page missed a margin-button to be in the correct position.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+**Unfixed Bugs**
+- When I deployed my project and tried to view it on my phone the text inside the orange was overflowed and the undeline decoration text was missing.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Validator Testing
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+When I validate my project to validator W3C I discovered my iframe had an error because of the % symbole being used. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- I fixed this error removing the % symbole in the HTML and changing the height to px and the width remain in % but was stated in the css.
+- Another error was created for using an H1. I change the H1 from the nav and added an H2.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+**HTML**
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+After fixing this, no errors were returned when useing the W3C validator.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+**CSS**
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+No errors were found when passing through the official Jigsaw validator.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+**Accessibility**
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+I confirm that the colors and fonts chosen are easy to read and accesible by running it through lighthouse in devtools.
 
-------
+# Deployment 
 
-## FAQ about the uptime script
+The site was deployed to GitHub pages. The steps to deploy are as follows:
 
-**Why have you added this script?**
+- In the GitHub repository, navigate to the settings tab. 
+- From thhe source section drop-down menu, select the main branch. 
+- Once the main branch has beeing selected, the page provided the link to the completed website.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+The live link can be found here:
 
-**How will this affect me?**
+# Credits
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Content
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- The code to make the social media links was taken from the CI Love running project.
+- I also used several links to fix errors and create website:
+- css-tricks, developer.mozilla.org, stackoverflow.com, baby_wolf_codes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+ The structure of the website with grids: 
+ https://www.youtube.com/watch?v=68O6eOGAGqA&t=630s
 
-**So….?**
+Text for content:
+https://www.dublinfreewalkingtour.ie/
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+To indent code:
+[https://www.freeformatter.com
 
-**Can I opt out?**
+To write readme:
+https://stackedit.io/app#
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Media
 
-**Anything more?**
+The media from the home page was taken from Unsplash, Pexels and google images.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
