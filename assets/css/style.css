@@ -846,4 +846,24 @@ footer {
 
 }
 
+/* thank you page */
 
+.content-thank-you{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.5rem;
+    font-family: "Montserrat", sans-serif;
+    background: rgba(228, 95, 19, 0.644);
+    text-align: center;
+}
+
+
+.content-thank-you > h1 {
+    display:grid;
+    margin-top: 30%;
+    font-size: 2.5rem;
+}
+
+.content-thank-you > h2 {
+    font-size: 1.5rem;
+}
