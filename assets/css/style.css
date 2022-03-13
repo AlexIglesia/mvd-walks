@@ -492,6 +492,9 @@ font-size: 1.5rem;
 header h1 {
 margin-left: 0;
 }
+header>a:hover {
+border-bottom: none;
+}
 .cover-text {
 height: 20rem;
 width: 25rem;
@@ -599,6 +602,9 @@ font-size: 1.5rem;
 }
 header h1 {
 margin-left: 0;
+}
+header>a:hover {
+border-bottom: none;
 }
 header ul {
 padding: 0;
