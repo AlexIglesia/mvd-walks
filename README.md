@@ -1,6 +1,6 @@
 # Mvd Walks
 
-This website is created mainly for any person interested in participating in a free walking tour in the city of Montevideo, Uruguay.
+This website is created for any person interested in participating in a free walking tour in the city of Montevideo, Uruguay.
 
 ![alt text](assets/images/responsive.png)
 
@@ -77,10 +77,10 @@ The colors selected were:
 -   rgb(238, 208, 193) - Beige
 	
 Accents:
-- rgb(238,164,127) Coral
-- rgba(228, 95, 19, 0.644) Orange
-- rgb(248, 242, 242) Off White
-- #fff White
+- rgb(238,164,127) - Coral
+- rgba(228, 95, 19, 0.644) - Orange
+- rgb(248, 242, 242) - Off White
+- #fff - White
 
 Other additional colours came through the images.
 
@@ -90,6 +90,9 @@ Other additional colours came through the images.
 
 -   Capriola
 -   Montserrat
+
+To convey a friendly look to the company Capriola font is selected for the logo and home message of the page.
+Montserrat font is applied to most of the text as it is good for legibility and gives a modern look.
 
 # Features
 
