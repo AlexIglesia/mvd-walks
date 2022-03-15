@@ -457,6 +457,9 @@ grid-template-areas:
 "content9 content9 content9"
 "footer footer footer"; 
 }
+header>a:hover {
+border-bottom: none;
+}
 table {
 width: 50rem;
 }
